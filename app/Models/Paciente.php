@@ -20,8 +20,5 @@ class Paciente extends Model
         'correo',
         'direccion'
     ];
-    protected $hidden =[
-        'created_at',
-        'updated_at',
-    ];
+   
 }
